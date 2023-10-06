@@ -4,7 +4,7 @@
  * main - Prints size of various types on the computer.
  *
  * Return: 0 (Success)
- */
+ **/
 int main(void)
 {
 	char a;
