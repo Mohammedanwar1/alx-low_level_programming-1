@@ -8,32 +8,32 @@
 
 int main(void)
 {
-	int t;
-	int h;
-	int n;
-	int s;
+	int tho;
+	int hun;
+	int ten;
+	int bas;
 
-for ( t = 0 ; t < 10 ; t++)
+for ( tho = 0 ; tho < 10 ; tho++)
 {	
 
-	for (h = 0 ; h <= 10 ; h++)
+	for (hun = 0 ; hun <= 10 ; hun++)
 	{
 	
-		for (n = 0 ; n < 10 ; n++)
+		for (ten = 0 ; ten < 10 ; ten++)
 		{
-			for ( s = 0 ; s < 10 ; s++)
+			for ( bas = 0 ; bas < 10 ; bas++)
 			{
-				putchar('0' + t);
-				putchar('0' + h);
+				putchar('0' + tho);
+				putchar('0' + hun);
 				putchar(32);
-				putchar('0' + n);
-				putchar('0' + s);
-				if (!(t == 9 && h == 8))
+				putchar('0' + ten);
+				putchar('0' + bas);
+				if (!(tho == 9 && hun == 8))
 				{
 					putchar(',');
 					putchar(32);
 				}
-				s++;
+				bas++;
 			}
 		}
 	}
