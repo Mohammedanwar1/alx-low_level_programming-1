@@ -22,7 +22,7 @@ int main(void)
 				putchar(',');
 				putchar(32);
 			}
-			i++;
+			j++;
 		} while (j < 10);
 	}
 	putchar('\n');
